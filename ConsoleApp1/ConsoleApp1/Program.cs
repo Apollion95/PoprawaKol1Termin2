@@ -74,9 +74,9 @@ namespace ConsoleApp1
         //ekran ilość wierszy otrzymanej tablicy.
         static void Main(string[] args)
         {
-            //Zad1(90, "Sloneczna");
-            //Zad1(80, "PadaDeszcz");
-            //Zad1(70, "Snieg");
+            Zad1(90, "Sloneczna");
+            Zad1(80, "PadaDeszcz");
+            Zad1(70, "Snieg");
         }
     }
 }
