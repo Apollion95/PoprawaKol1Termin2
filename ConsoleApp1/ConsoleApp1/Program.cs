@@ -57,13 +57,13 @@ namespace ConsoleApp1
         {
             string[,] tablica = new string[2, 5];
             var str = String.Join(",", tablica);
-            for(int i = 0; i < 2; i++)
+            var strspc = String.Join(" ", tablica);
+            for (int i = 0; i < 2; i++)
             {
                 for(int j = 0; j < 5; j++)
                 {
                     Console.WriteLine("Podaj Imie po spacji nazwisko, po przecinku nowe imie i nazwisko");
                 }
-      
             }
         }
         //zad2
